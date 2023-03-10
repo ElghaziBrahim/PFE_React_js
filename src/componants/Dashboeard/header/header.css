@@ -1,0 +1,109 @@
+.header_ {
+  background-color: white;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  
+}
+/* ------------------left------------------- */
+.left {
+  display: flex;
+}
+.left,
+a {
+  text-decoration: none;
+  font-size: 21px;
+}
+.left_sigment {
+  margin: auto 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+.logo_img {
+  width: 50px;
+  
+}
+.avatar_img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.link_logo {
+  width: 20px;
+  
+}
+/* ------------------right------------------- */
+.right {
+  margin-right: 30px;
+  display: flex;
+}
+.right p{
+  margin: auto 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header_toggle {
+  display: none;
+}
+.menu {
+  position: relative; /* Make container positioned */
+  display: inline-block; /* Make container inline */
+  
+}
+
+.down_menu {
+  position: absolute; /* Make logout button positioned */
+  /* Position logout button below container */
+
+  transform: translateX(-50%); /* Adjust centering */
+  display: none; /* Hide logout button by default */
+  background-color: rgb(240, 247, 245);
+  padding: 30px 10px 10px 10px;
+  border-radius: 5px;
+  margin-top: 7px;
+  z-index: 9999;
+}
+.down_menu a{
+  cursor: pointer;
+}
+
+
+.down_menu.show {
+  display: block; /* Show logout button when .show class is added */
+}
+
+.Logout {
+  display: flex;
+}
+.Dach_menu {
+  display: flex;
+}
+.down_img {
+  width: 20px;
+  margin-top: 50%;
+}
+.menu img {
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Logout {
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+.down_menu a {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 600px) {
+  #not_phone :not(.menu) {
+    display: none;
+  }
+}

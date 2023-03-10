@@ -1,0 +1,71 @@
+img {
+  width: 100%;
+}
+.user_container {
+  background-color: white;
+  position: relative;
+  height: 130px;
+}
+.profile_avatar {
+  width: 150px;
+  height: 152px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  top: -40px;
+  background-color: white;
+  padding: 5px;
+  left: 100px;
+  box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.75);
+}
+.user_info {
+  margin-left: 300px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.aricles_ {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.cont2 {
+  display: flex;
+  background-color: rgb(246, 232, 232);
+}
+.cont3 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.main_ {
+  width: 70%;
+  padding: 20px;
+}
+.full_name {
+  font-size: 40px;
+}
+
+.tag {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.social img {
+  width: 20px;
+  margin-right: 5px;
+}
+.social {
+  display: flex;
+}
+.side__ {
+  width: 30%;
+}
+.article_ {
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}

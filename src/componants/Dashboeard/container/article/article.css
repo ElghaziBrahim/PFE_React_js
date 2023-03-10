@@ -1,0 +1,33 @@
+.article {
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+h1 {
+  font-size: 30px;
+}
+.info {
+  font-size: 20px;
+  padding: 10px 0;
+  width: 90%;
+}
+.checkbox_article {
+  width: 10%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.information {
+  width: 90%;
+}
+.author{
+  font-size: 15px;
+  display: inline;
+  margin-right: 10px;
+}
+h3{
+  display: flex;
+}

@@ -1,0 +1,20 @@
+h2 {
+  margin-bottom: 20px;
+}
+.modify_bu {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(121, 61, 223);
+  color: white;
+}
+.part_info {
+  margin-bottom: 20px;
+  display: flex;
+}
+.info_header {
+  font-size: 20px;
+  width: 30%;
+}
+.info_val input {
+  margin: 0;
+}
